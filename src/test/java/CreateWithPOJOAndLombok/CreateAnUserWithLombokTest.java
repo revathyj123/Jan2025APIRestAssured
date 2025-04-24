@@ -61,6 +61,7 @@ public class CreateAnUserWithLombokTest {
 			.body("id",equalTo(userId));//Correlation
 	}
 	
+	//Builder Pattern
 	@Test
 	public void addUserTestWithLombokBuilder() {
 		
