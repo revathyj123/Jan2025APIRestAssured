@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-23T21:08:35 EDT" name="Default suite" finished-at="2025-04-23T21:08:40 EDT" duration-ms="4739">
+  <suite started-at="2025-04-23T21:21:52 EDT" name="Default suite" finished-at="2025-04-23T21:21:55 EDT" duration-ms="3415">
     <groups>
     </groups>
-    <test started-at="2025-04-23T21:08:35 EDT" name="Default test" finished-at="2025-04-23T21:08:40 EDT" duration-ms="4739">
+    <test started-at="2025-04-23T21:21:52 EDT" name="Default test" finished-at="2025-04-23T21:21:55 EDT" duration-ms="3415">
       <class name="BookingAPITests.BookingAPITest">
-        <test-method is-config="true" signature="getToken()[pri:0, instance:BookingAPITests.BookingAPITest@4a94ee4]" started-at="2025-04-23T21:08:35 EDT" name="getToken" finished-at="2025-04-23T21:08:38 EDT" duration-ms="3212" status="PASS">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:BookingAPITests.BookingAPITest@12468a38]" started-at="2025-04-23T21:21:52 EDT" name="getToken" finished-at="2025-04-23T21:21:55 EDT" duration-ms="2942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getToken -->
-        <test-method signature="createBookingTest()[pri:0, instance:BookingAPITests.BookingAPITest@4a94ee4]" started-at="2025-04-23T21:08:38 EDT" name="createBookingTest" finished-at="2025-04-23T21:08:39 EDT" duration-ms="221" status="PASS">
+        <test-method signature="deleteBookingTest()[pri:0, instance:BookingAPITests.BookingAPITest@12468a38]" started-at="2025-04-23T21:21:55 EDT" name="deleteBookingTest" finished-at="2025-04-23T21:21:55 EDT" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createBookingTest -->
-        <test-method is-config="true" signature="getToken()[pri:0, instance:BookingAPITests.BookingAPITest@4a94ee4]" started-at="2025-04-23T21:08:39 EDT" name="getToken" finished-at="2025-04-23T21:08:39 EDT" duration-ms="203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getToken -->
-        <test-method signature="getBookingTest()[pri:0, instance:BookingAPITests.BookingAPITest@4a94ee4]" started-at="2025-04-23T21:08:39 EDT" name="getBookingTest" finished-at="2025-04-23T21:08:39 EDT" duration-ms="440" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBookingTest -->
-        <test-method is-config="true" signature="getToken()[pri:0, instance:BookingAPITests.BookingAPITest@4a94ee4]" started-at="2025-04-23T21:08:39 EDT" name="getToken" finished-at="2025-04-23T21:08:39 EDT" duration-ms="166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getToken -->
-        <test-method signature="updateBookingTest()[pri:0, instance:BookingAPITests.BookingAPITest@4a94ee4]" started-at="2025-04-23T21:08:39 EDT" name="updateBookingTest" finished-at="2025-04-23T21:08:40 EDT" duration-ms="440" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateBookingTest -->
+        </test-method> <!-- deleteBookingTest -->
       </class> <!-- BookingAPITests.BookingAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

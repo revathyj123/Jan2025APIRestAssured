@@ -73,5 +73,18 @@ public class BookingAPITest {
 				.body("additionalneeds", equalTo("Dinner"));
 
 	}
+	
+	@Test
+	public void deleteBookingTest() {
+		int newBookingId = createBooking();
+		given().log().all()
+		.pathParam("bookingId", newBookingId)
+		.contentType(ContentType.JSON)
+		.header("Cookie", "token=" + tokenID)
+		.when()
+		.delete("/booking/{bookingId}")
+		.then().log().all()
+		.assertThat().statusCode(201);
+	}
 
 }
